@@ -1,0 +1,15 @@
+.logo-bar {
+    background: #003153;
+    width: 100%;
+    height: 60px;
+
+}
+.background-bar {
+    background: #003153;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top:31px;
+    border-radius: 15px;
+    
+}

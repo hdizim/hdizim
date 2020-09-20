@@ -1,0 +1,59 @@
+
+	body {background-color:#30333A;
+	
+	}
+	
+	#en_iyiler {position:absolute;
+		left:85%;
+		top:80%;
+	}
+	
+	#tüm-diziler {
+        position:absolute;
+		width:100%;
+		top:9%;
+        background: #003153;
+	}
+
+	#ad {position:absolute;
+		length:40px;
+		height:20px;
+		top:5%;
+		left:80%;
+	}
+	
+	hr {
+		display:block;
+		position:relative;
+        margin: 2px 15px;
+        background-color: black;
+        border-color:black;
+        height: 3px;
+	}
+	#son-bar {position:relative;top:73%;}
+	
+	#logo {
+		position:relative;
+		border-radius:15px;
+	}
+    #logo a {
+        display:inline-block;
+        width: 100%;
+        height: 80px;
+        background: url(file:///C:/Users/ADMİN/Desktop/Thumbnail/Logo.png)center no-repeat;
+        background-size: 160px;
+        text-indent: -999px;
+        cursor:context-menu;
+    }
+	.en-film {
+		position:relative;
+		font-weight: 600;
+		font-size: 20px;
+		padding-top: 10px;
+		margin-bottom: 20px;
+		color: #fff;
+		letter-spacing: -.41px;
+		top:under;
+		top:74%;
+		left:1%;
+	}

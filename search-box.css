@@ -1,0 +1,22 @@
+#search-box {
+		max-width:30px;
+		position:absolute;
+		left:60px;
+		top:2.5%;
+	}
+#search {
+		width:250px;
+		box-sizing:border-box;
+		border:2px solid orange;
+		border-radius:15px;
+		font-size:18px;
+		moz-transition: width 0.4s ease-in-out;
+		o-transition: width 0.4s ease-in-out;
+		webkit-transition: width 0.4s ease-in-out;
+		transition: width 0.5s ;
+		text-align:center;
+		
+	}
+#search:focus {
+		width:300px;
+	}

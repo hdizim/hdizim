@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+	.giriş .giriş-buton{
+		margin: 15px;
+		border: 2px solid #ffd324;
+		width: 100px;
+		height: 45px;
+		text-align:center;
+		line-height:20px;
+		position: absolute;
+		overflow: hidden;
+		top:-7px;
+		left:90%;
+	}
+
+	.giriş .giriş-buton a{
+		color: #ffd324;
+		text-decoration: none;
+		text-transform: uppercase;
+		letter-spacing: 5px;
+		display: block;
+		position: relative;
+		z-index: 999;
+		font-weight: bold;
+		transition: all 0.5s ease;
+		}
+
+	.giriş .giriş-buton a:hover{
+		color: #30333A;
+	}
+
+	.giriş .giriş-buton.btn_1:before{
+		content: "";
+		position: absolute;
+		top: -60px;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #ffd324;
+		transform: skewY(10deg);
+		transition: all 0.5s ease;
+	}
+
+	.giriş .giriş-buton.btn_1:after{
+		content: "";
+		position: absolute;
+		top: 60px;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #ffd324;
+		transform: skewY(10deg);
+		transition: all 0.5s ease;
+	}
+
+	.giriş .giriş-buton.btn_1:hover:before{
+		top: -20px;
+	}
+	.giriş .giriş-buton.btn_1:hover:after{
+		top: 20px;
+	}
+
+	.giriş .giriş-buton.btn_2:before{
+		content: "";
+		position: absolute;
+		top: -60px;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #ffd324;
+		transform: skewY(-10deg);
+		transition: all 0.5s ease;
+	}
+
+	.giriş.giriş-buton.btn_2:after{
+		content: "";
+		position: absolute;
+		top: 60px;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #ffd324;
+		transform: skewY(-10deg);
+		transition: all 0.5s ease;
+	}
+
+	.giriş .giriş-buton.btn_2:hover:before{
+		top: -20px;
+	}
+	.giriş .giriş-buton.btn_2:hover:after{
+		top: 20px;
+	}
+	.kayıt .kayıt-buton{
+		margin: 15px;
+		border: 2px solid #ffd324;
+		width: 100px;
+		height: 45px;
+		text-align:center;
+		line-height:20px;
+		position: absolute;
+		overflow: hidden;
+		top:-7px;
+		left:82%;
+	}
+
+	.kayıt .kayıt-buton a{
+		color: #ffd324;
+		text-decoration: none;
+		text-transform: uppercase;
+		letter-spacing: 5px;
+		display: block;
+		position: relative;
+		z-index: 999;
+		font-weight: bold;
+		transition: all 0.5s ease;
+		}
+
+	.kayıt .kayıt-buton a:hover{
+		color: #30333A;
+	}
+
+	.kayıt .kayıt-buton.btn_3:before{
+		content: "";
+		position: absolute;
+		top: -60px;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #ffd324;
+		transform: skewY(-10deg);
+		transition: all 0.5s ease;
+	}
+
+	.kayıt .kayıt-buton.btn_3:after{
+		content: "";
+		position: absolute;
+		top: 60px;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #ffd324;
+		transform: skewY(-10deg);
+		transition: all 0.5s ease;
+	}
+
+	.kayıt .kayıt-buton.btn_3:hover:before{
+		top: -20px;
+	}
+	.kayıt .kayıt-buton.btn_3:hover:after{
+		top: 20px;
+	}
+
+	.kayıt .kayıt-buton.btn_4:before{
+		content: "";
+		position: absolute;
+		top: -60px;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #ffd324;
+		transform: skewY(10deg);
+		transition: all 0.5s ease;
+	}
+
+	.kayıt.kayıt-buton.btn_4:after{
+		content: "";
+		position: absolute;
+		top: 60px;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #ffd324;
+		transform: skewY(10deg);
+		transition: all 0.5s ease;
+	}
+
+	.kayıt .kayıt-buton.btn_4:hover:before{
+		top: -20px;
+	}
+	.kayıt .kayıt-buton.btn_4:hover:after{
+		top: 20px;
+	}

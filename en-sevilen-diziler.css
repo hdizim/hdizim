@@ -1,0 +1,57 @@
+.en-sevilenler {
+		position:relative;
+		font-weight: 600;
+		font-size: 20px;
+		margin: 5px;
+		color: #fff;
+		letter-spacing: -.41px;
+		left:2px;
+	}
+.en-sevilen-dizi {
+		position:relative;
+		width: 99.8%;
+		margin:0 auto;
+		padding: 15px 0;
+        padding-bottom: 35px;
+		flex-direction: row;
+		justify-content: center;
+		left:center;
+        margin-bottom: 15px;
+		
+	}
+.en-sev-foto {
+        display: inline-block;
+		width: 180px;
+		height: 130px;
+		margin: 15px 14px;
+		transition: 0.8s;
+        position: relative;
+        border: 3px solid;
+        border-radius: 18px;
+        left: 8;
+	}
+.en-sev-foto:hover {
+		transform:scale(1.2);
+		z-index:2;
+        position: relative;
+	}
+.en-sev-foto a {
+		text-decoration:none;
+	}	
+.en-sev-foto img {
+		height:100%;
+		width:100%;
+		border-radius:15px;
+        position:relative;
+	}
+.çıkış-tarih {
+    position: absolute;
+    background-color: #78866b;
+    left:40%;
+    top:-10;
+    border:1px solid black;
+    border-radius: 3px;
+    color:darkgreen;
+    
+}
+

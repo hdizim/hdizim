@@ -1,0 +1,78 @@
+        .yeni-bölüm {
+            position: relative;
+            font-size: 14px;
+            list-style: none;
+            margin:0 22px;
+        } 
+        .son-bölümler {
+		  position:relative;
+		  font-weight: 600;
+		  font-size: 20px;
+		  margin: 5px;
+		  color: #fff;
+		  letter-spacing: -.41px;
+		  left:2px;
+        }
+        .yeni-bölüm ul {
+            list-style: none;
+        }
+        
+        .yeni-bölüm li {
+            border:2px solid lime;
+            background-color: crimson;
+            border-radius: 15px;
+            width: 200px;
+            height: 90px;
+            margin: 10px 4px;
+            display: inline-block;
+            padding: 0 5px;
+            
+        }
+        .son-bolum {
+            height: 90;
+            
+        }
+        .yeni-bölüm li a{
+            text-decoration: none;
+            color:black;
+        }
+        .yeni-foto {
+            width: auto;
+            height: 45px;
+            top:8px;
+            position: relative;
+            margin: 7px 7px;
+            border-radius: 5px;
+        }
+        .date {
+            display: inline-block;
+            position: relative;
+            font-size: 12px;
+            left: 130px;
+            top:-83px;
+            color:blue;
+            background-color: darkred;
+            border:2px solid darkred;
+            border-radius: 5px;
+            box-shadow: 3px 2px 5px 0 black;
+        }
+        .sezon-bolum {
+            display: block;
+            position: relative;
+            font-size: 16px;
+            text-align: center;
+            background-color: aqua;
+            border-radius: 7px;
+            padding: 1 10;
+            font-weight: 600;
+
+            
+        }
+        .yeni-başlık {
+            font-size:17px;
+            position: relative;
+            top:-26;
+            max-width: 100px;
+
+            
+        }
